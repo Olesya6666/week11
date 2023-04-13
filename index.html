@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/week11/style.css" />
+    <link rel="stylesheet" href="/week11/normalize.css">
+
+    <title>Корзина товаров</title>
+  </head>
+
+  <body>
+    <section class="section-card">
+      <header class="section-card__header">
+        <div class="container">
+          <h1 class="title-1">Корзина товаров</h1>
+        </div>
+      </header>
+      <div class="section-card__body">
+        <div class="container">
+          <section class="card">
+            <div class="card-name">
+              <div class="card-name__title">Наименование</div>
+              <div class="card-name__count">Количество</div>
+              <div class="card-name__price">Стоимость</div>
+            </div>
+          </section>
+            <section class="product">
+              <div class="product__img">
+                <img src="assets/booka.jpg" width="90">
+              </div>
+              <div class="product__title">Финансовое планирование<br>Искусство создавать доход.<br>Александ Высоцкий</div>
+              <div class="product__count">1 </div>
+              <div class="product__price" id="booka" ><span class="booka__price">1500</span> руб.</div>
+              
+            </section>
+            <section class="product">
+              <div class="product__img">
+                <img src="assets/bookb.jpg" width="100" height="90">
+              </div>
+              <div class="product__title">Финансы</div>
+              <div class="product__count">1 </div>
+              <div class="product__price" id="bookb"><span class="bookb__price">1300</span> руб.</div>
+              
+            </section>
+            <section class="product">
+              <div class="product__img">
+                <img src="assets/bookc.jpg" width="90" >
+              </div>
+              <div class="product__title">Bisiness and Personal<br>Finance</div>
+              <div class="product__count">1 </div>
+              <div class="product__price" id="bookc"><span class="bookc__price">2000</span> руб.</div>
+              
+            </section>
+            <section class="product">
+              <div class="product__img">
+                <img src="assets/bookd.jpg" width="100" >
+              </div>
+              <div class="product__title">История денег</div>
+              <div class="product__count">1 </div>
+              <div class="product__price" id="bookd"><span class="bookd__price">800</span> руб.</div>
+              
+            </section>
+     
+             <footer class="card-footer">
+              <div class="card-footer__btn">
+              <button class="card-footer__coupon" >Использовать купон на 20%</button></div>
+              <div class="card-name__totaly" id="result" >Итого: <span class="total__price">6600</span> руб.</div>
+             
+            </footer>
+            
+          
+    </section>
+        </div>
+      </div>
+    </section>
+  
+    <script src="/week11/index.js"></script>
+  </body>
+</html>
